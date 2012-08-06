@@ -15,3 +15,7 @@
 	.riley-hero img {
 		width:242px;
 	}
+
+	.nav .icon-large::before {
+		vertical-align: middle !important;
+	}
