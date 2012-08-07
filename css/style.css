@@ -51,6 +51,16 @@ table.contactus tr:first-child, table.contactus tr:first-child th {
 	border-top: 0 transparent !important;
 }
 
+.donation-btn, .download-btn {
+  padding: 18px 28px;
+  font-size: 36px;
+  line-height: normal;
+  -webkit-border-radius: 9px;
+  -moz-border-radius: 9px;
+  border-radius: 9px;
+
+}
+
 @media (max-width: 480px) {
 	.btn {
 		margin: 2px inherit;

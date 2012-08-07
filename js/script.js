@@ -4,7 +4,7 @@
 
 $(document).ready( function(){
     window.setTimeout( function(){
-        $(".riley-hero").addClass('in');
+        $(".fade").addClass('in');
     }, 500);
 });
 
