@@ -24,10 +24,7 @@
           </a>
           <a class="brand" href="#">Bark</a>
           <div class="nav-collapse">
-            <ul class="nav">
-              {% assign pages_list = site.pages %}
-              {% assign group = 'navigation' %}
-              {% include pages_list %} 
+            <ul class="nav">{% assign pages_list = site.pages %}{% assign group = 'navigation' %}{% include pages_list %} 
             </ul>
           </div><!--/.nav-collapse -->
         </div>
