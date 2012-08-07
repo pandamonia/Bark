@@ -11,9 +11,12 @@
 	}
 }
 
-.riley-hero {
+.hero-pull {
   	max-height: 256px;
   	max-width: 256px;
+}
+
+.riley-hero {
 	-webkit-transition: opacity 1.5s ease-in-out, -webkit-transform 1.5s ease-in-out;
 	-moz-transition: opacity 1.5s ease-in-out, -moz-transform 1.5s ease-in-out;
 	-ms-transition: opacity 1.5s ease-in-out, -ms-transform 1.5s ease-in-out;
