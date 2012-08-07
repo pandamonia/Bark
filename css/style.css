@@ -34,8 +34,21 @@
 	transform: rotate(0);
 }
 
-.nav .icon-large::before {
+table.contactus  {
+	text-align: center;
+}
+
+table.contactus [class^="icon-"]:before, table.contactus [class*=" icon-"]:before {
+	font-size: 150%;
+}
+
+table.contactus td, table.contactus th, table.contactus .icon-large::before, .nav .icon-large::before {
 	vertical-align: middle !important;
+	text-align: center;
+}
+
+table.contactus tr:first-child, table.contactus tr:first-child th {
+	border-top: 0 transparent !important;
 }
 
 @media (max-width: 480px) {
