@@ -4,18 +4,42 @@
    Author:
    ========================================================================== */
 
-  @media (min-width: 979px) { 
+@media (min-width: 979px) { 
 	body {
 	  padding-top: 60px;
 	  padding-bottom: 40px;
 	}
+}
 
-  }
+.riley-hero {
+  	max-height: 256px;
+  	max-width: 256px;
+	-webkit-transition: opacity 1.5s ease-in-out, -webkit-transform 1.5s ease-in-out;
+	-moz-transition: opacity 1.5s ease-in-out, -moz-transform 1.5s ease-in-out;
+	-ms-transition: opacity 1.5s ease-in-out, -ms-transform 1.5s ease-in-out;
+	-o-transition: opacity 1.5s ease-in-out, -o-transform 1.5s ease-in-out;
+	transition: opacity 1.5s ease-in-out, transform 1.5s ease-in-out;
+	-moz-transform: rotate(-65deg);
+	-webkit-transform: rotate(-65deg);
+	-o-transform: rotate(-65deg);
+	-ms-transform: rotate(-65deg);
+	transform: rotate(-65deg);
+}
 
-	.riley-hero img {
-		width:242px;
+.riley-hero.in {
+	-moz-transform: rotate(0);
+	-webkit-transform: rotate(0);
+	-o-transform: rotate(0);
+	-ms-transform: rotate(0);
+	transform: rotate(0);
+}
+
+.nav .icon-large::before {
+	vertical-align: middle !important;
+}
+
+@media (max-width: 480px) {
+	.btn {
+		margin: 2px inherit;
 	}
-
-	.nav .icon-large::before {
-		vertical-align: middle !important;
-	}
+}
