@@ -1,0 +1,1 @@
+{% for p in site.pages %}{% if p.title == include_page and p.group == group %}{{p.content}}{% endif %}{% endfor %}{% assign include_page = nil %}{% assign group = nil %}

@@ -1,0 +1,2 @@
+{% for p in site.pages %}{% if p.group == 'changelogs' %}
+    <div class="span6">{{p.content}}</div>{% endif %}{% endfor %}
