@@ -9,11 +9,9 @@
         <atom:link href="http://barkplug.in/sparkle/appcast.xml" rel="self" type="application/rss+xml"/>
         <item>
             <title>Version 1.0</title>
-            <description><![CDATA[
-                Initial release.
-            ]]></description>
+            <sparkle:releaseNotesLink>http://barkplug.in/sparkle/changelog-1.0.html</sparkle:releaseNotesLink>
             <pubDate>Tue, 14 Aug 2012 19:43:19 -0400</pubDate>
-            <enclosure url="http://barkplug.in/sparkle/1.0.zip" length="5464775" type="application/octet-stream" sparkle:version="1.0" sparkle:dsaSignature="MC0CFAeP7JTotYI6iRWtTC1OG/hGSHlsAhUAoyeafRoN3OcYZFLsJOnvunmyV84="/>
+            <enclosure url="http://barkplug.in/downloads/Bark%201.0.zip" length="5464775" type="application/octet-stream" sparkle:version="1.0" sparkle:dsaSignature="MC0CFAeP7JTotYI6iRWtTC1OG/hGSHlsAhUAoyeafRoN3OcYZFLsJOnvunmyV84="/>
         </item>
     </channel>
 </rss>
